@@ -48,8 +48,12 @@ button :active {
 .btn_lupa {
    background-color: #24243D;
    padding: 4px;
-   /* border-width: 0; */
 }
+
+/* .add:active{
+   transform: scale(1.7) rotate(-120deg) ;
+   color: red;
+} */
 
 .search_bar {
    display: flex;

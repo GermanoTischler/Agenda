@@ -33,7 +33,7 @@ aside {
    background-color: blueviolet;
    font-size: 1.9rem;
    font-weight: 500;
-   margin-top: 14px;
+   margin-top: 15px;
    margin-right: 35px;
 }
 
@@ -45,7 +45,18 @@ aside {
 .contato {
    display: flex;
    flex-direction: row;
-   margin: 10px;
+   padding: 10px 0px 10px 10px;
+   border: 1px solid #1A1924;
+   border-radius: 10px;
+}
+
+.contato:hover {
+   background-color: #1e1e2c;
+}
+
+.contato:active {
+   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+   background-color: #1e1e2c;
 }
 
 img {
@@ -58,6 +69,8 @@ img {
 
 li {
    list-style-type: none;
+   height: 5rem;
+   width: 17rem;
 }
 
 .nome {
